@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+.main{
+    background-image:url(bg.png);
+    height:100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: max(1200px,100vw);
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.h{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+    color: #9fd3c7;
+}
+.about{
+    padding:0px 40px;
+    color: #f95959;
+    font-size: 27px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.content{
+    margin-top: 10px;
+    color: #ececec;
+    font-size: 21px;
+    font-family: 'Share Tech Mono', monospace;
+}
+.da{
+    color: antiquewhite;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.imginput{
+    border: 3px solid white;
+    position: relative;
+    top: 320px;
+    padding: 70px;
+    max-width: 60vw;
+    margin: auto;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+button{
+    position: relative;
+    top: 370px;
+    left: 43.3%;
+    padding: 5px 27px;
+    color: wheat;
+    font-family: 'Inconsolata', monospace;
+    font-size: 19px;  
+    border-radius: 18px;
+    border: none;
+    font-weight: bolder;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgb(9, 9, 121) 35%, rgba(0, 213, 255, 0.646) 100%);
+}
+button:hover{
+    color: red;
+}
+.da{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dac{
+    font-size: large;
+    border-radius: 22px;
+    background-color: #f95959;
+    width: 130px;
+    padding: 7px;
+    text-align: center;
+}
+#upload {
+    display: none; 
+    
+}
+p{
+    color: #66bfbf;
+}
+
+@media screen and (max-width:1300px){
+    body{
+        overflow-x: hidden;
+    }
+    .main{
+        background-size: max(1500px,100vw);
+    }
+    .h{
+        font-size: 30px;
+    }
+    .about{
+        font-size: 18px;
+    }
+    .content{
+        font-size: 12px;
+    }
+    .imginput{
+        width: 180px;
+        height: 80px;
+    }
+    .da{
+        font-size: 18px;
+    }
+    .dac{
+        font-size: 16px;
+    }
+    p{
+        font-size: small;
+    }
+    button{
+        position: relative;
+        left: 27%;
+    }
+    .h{
+        margin-bottom: 20px;
+    }
+}
