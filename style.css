@@ -120,6 +120,8 @@ p{
     .imginput{
         width: 180px;
         height: 80px;
+        position: relative;
+        top: 350px;
     }
     .da{
         font-size: 18px;
